@@ -17,3 +17,14 @@ Unix extractor script
 + cpio
 + a (ar, rar predecessor)
 + kgb
+
+## Download & Install
+Run this command to download and install the script
+```
+git clone https://github.com/MichaelDim02/x.git && cd x && chmod +x x.sh && sudo move x.sh /bin/x
+```
+
+## Usage
+```
+~$ x filename.zip
+```
