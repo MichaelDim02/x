@@ -1,7 +1,7 @@
 # x
 Unix extractor script
 
-Can extract the following:
+## Can extract the following:
 + zip
 + gz
 + tar
