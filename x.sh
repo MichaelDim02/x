@@ -15,6 +15,7 @@ elif [ "$ext" = "tar.gz" ];	then tar xzf "$1";
 elif [ "$ext" = "7zip" ];	then 7za e "$1";
 elif [ "$ext" = "7z" ];		then 7za e "$1";
 elif [ "$ext" = "bzip2" ];	then bzip2 -d "$1";
+elif [ "$ext" = "tar.bz2" ];  then tar xf "$1";
 elif [ "$ext" = "rar" ];	then unrar x "$1";
 elif [ "$ext" = "Z" ];		then uncompress "$1";
 elif [ "$ext" = "lzma" ];	then lzma -d --stdout "$1" >"$bn";
