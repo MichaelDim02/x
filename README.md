@@ -9,6 +9,7 @@ Unix extractor script
 + 7zip
 + 7z
 + bzip2
++ tar.bz2
 + rar
 + Z (standard Unix compress)
 + lzma
