@@ -5,8 +5,8 @@
 # Website: https://mcdim.xyz
 # Email: mk@mcdim.xyz
 
-ext=$( echo $1 | cut -d . -f2- )
-bn=$( echo $1 | cut -d . -f1 )
+ext=$( echo $1 | rev | cut -d . -f1 | rev )
+bn=$( echo $1 | rev | cut -d . -f2- | rev )
 
 if   [ "$ext" = "zip" ];	then unzip "$1"; 
 elif [ "$ext" = "gz" ];		then gzip -d "$1";
